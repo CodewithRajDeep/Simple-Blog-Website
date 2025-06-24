@@ -110,3 +110,13 @@ html{
 .header .search-form label:hover{
     color: var(--orange);
 }
+
+#menu{
+    display: none;
+}
+
+@media (max-width: 991px){
+ html{
+    font-size: 62.5%;
+ }
+}
