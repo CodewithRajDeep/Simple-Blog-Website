@@ -39,10 +39,74 @@ html{
 
 .header .logo{
     color: var(--black);
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-right: auto;
 }
 
 .header .logo span{
+    color: var(--orange);
+}
+
+.header .navbar a{
+    color: var(--light-color);
+    margin-right: 2rem;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+.header .navbar a:hover{
+    color: var(--orange);
+}
+
+.header .icons i{
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    color: var(--black);
+    background: #eee;
+    border-radius: 50%;
+    margin-left: .8rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.header .icons i:hover{
+    color: #fff;
+    background: var(--orange);
+}
+
+.header .search-form{
+    position: absolute;
+    background: #fff;
+    border-radius: .5rem;
+    display: none;
+    align-items: center;
+    box-shadow: var(--border-shadow);
+    top: 90%;
+    right: 7%;
+    height: 6rem;
+    width: 50rem;
+    padding: 1rem;
+}
+
+.header .search-form #search-box{
+    width: 100%;
+    border: var(--border);
+    border-radius: .8rem;
+    padding: 1rem;
+    font-size: .9rem;
+    color: var(--black);
+    height: 100%;
+}
+
+.header .search-form label{
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: .5rem;
+    cursor: pointer;
+    color: var(--black);
+}
+
+.header .search-form label:hover{
     color: var(--orange);
 }
