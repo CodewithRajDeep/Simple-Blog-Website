@@ -149,6 +149,9 @@ html{
     display: none;
    }
 
+   .header .navbar.active {
+  display: block;
+   }
    .header .navbar a{
     display: block;
     background: #f7f7f7;
