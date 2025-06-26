@@ -137,6 +137,10 @@ html{
     width: 95%;
     border-radius: 0;
    }
+
+   .header .search-form.active{
+     display: flex;
+   }
    
     .header .navbar{
     position: absolute;
@@ -152,6 +156,7 @@ html{
    .header .navbar.active {
   display: block;
    }
+
    .header .navbar a{
     display: block;
     background: #f7f7f7;
