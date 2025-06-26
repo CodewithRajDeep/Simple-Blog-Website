@@ -89,6 +89,10 @@ html{
     padding: 1rem;
 }
 
+.header .search-form.active {
+    display: flex;
+}
+
 .header .search-form #search-box{
     width: 100%;
     border: var(--border);
