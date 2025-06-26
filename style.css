@@ -1,6 +1,6 @@
 :root{
     --orange: #e67e22;
-    --black: #3333;
+    --black: #202020;
     --light-color: #777;
     --border:.1rem solid rgba(0,0,0,.2);
     --border-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -22,6 +22,10 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
+}
+
+section{
+    padding:2rem 7%;
 }
 
 .header{
@@ -169,4 +173,36 @@ html{
     border-radius: .5rem;
     border: var(--border);
    }
+}
+
+.blog{
+    min-height: 80vh;
+    background: url(../images/background.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    padding-top: 8rem;
+}
+
+.blog .content{
+    text-align: center;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 3rem;
+    max-width: 50rem;
+}
+
+.blog .content h3{
+    font-size: 2.8rem;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.blog .content p{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    line-height: 1.5;
 }
