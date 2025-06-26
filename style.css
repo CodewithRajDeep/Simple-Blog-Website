@@ -119,4 +119,42 @@ html{
  html{
     font-size: 62.5%;
  }
+ .header{
+    padding: 1.5rem;
+ }
+}
+
+@media (max-width: 768px){
+   #menu{
+    display: inline-block;
+   }
+
+   .header .search-form{
+    top: 100%;
+    left: 0%;
+    right: 0%;
+    border-top: var(--border);
+    width: 95%;
+    border-radius: 0;
+   }
+   
+    .header .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    right: 0%;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    background: #fff;
+    display: none;
+   }
+
+   .header .navbar a{
+    display: block;
+    background: #f7f7f7;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border-radius: .5rem;
+    border: var(--border);
+   }
 }
