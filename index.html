@@ -1,228 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bloggy</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--header section-->
-        <header class="header">
-           <a href="#" class="logo"><span>B</span>logg<span>y</span></a>
-           <!--navbar section-->
-           <nav class="navbar">
-            <a href="#blog">blog</a>
-            <a href="#posts">posts</a>
-            <a href="#contact">contact us</a>
-           </nav>
-           <div class="icons">
-              <i class="fas fa-bars" id="menu"></i>
-              <i class="fas fa-search" id="search-icon"></i>
-           </div>
-           <form action="" class="search-form">
-            <input type="search" name="search" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-           </form>
-        </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bloggy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
 
-        <!---adding blog section-->
-        <section class="blog" id="blog">
-           <div class="content">
-             <h3>Explore the nature</h3>
-             <p>🌿 Step into the wild and let nature's calm refresh your soul.</p>
-             <a href="#" class="btn">my blogs</a>
-           </div>
-        </section>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo"><span>B</span>logg<span>y</span></a>
+    <nav class="navbar">
+      <a href="#blog">blog</a>
+      <a href="#posts">posts</a>
+      <a href="#contact">contact us</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-bars" id="menu"></i>
+      <i class="fas fa-search" id="search-icon"></i>
+    </div>
+    <form action="" class="search-form">
+      <input type="search" name="search" placeholder="search here..." id="search-box" />
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+  </header>
 
-        <!--blog upload section-->
-        <section class="container" id="posts">
-          <div class="posts-container">
-            <div class="post">
-                <img src="images/blog-1.jpg" alt="blog" class="image">
-                <div class="date">
-                    <i class="far fa-clock"></i>
-                    <span>28th June,2025</span>
-                </div>
-                <h3 class="title">Best Practices to start Blog</h3>
-                <p class="text">
-                    Blogging is a great way to express yourself and share your thoughts with other
-                    people. It can be a fun and rewarding hobby, and it can also be a great way
-                    to build your personal brand and attract new customers to your business.
-                </p>
-                <p class="text">
-                    It can also be a great way to build your personal brand and establish yourself as an expert
-                    in your field.
-                </p>
-                <div class="links">
-                    <a href="#" class="user">
-                        <i class="fas fa-user"></i>
-                        <span>by admin</span>
-                    </a>
-                    <a href="#" class="user">
-                        <i class="fas fa-comment"></i>
-                        <span>(45)</span>
-                    </a>
-                     <a href="#" class="user">
-                        <i class="fas fa-share-square"></i>
-                        <span>(29)</span>
-                    </a>
-                </div>
-            </div>
-           <!--Second blog upload section-->
-            <div class="post">
-                <img src="images/blog-2.webp" alt="blog" class="image">
-                <div class="date">
-                    <i class="far fa-clock"></i>
-                    <span>29th June,2025</span>
-                </div>
-                <h3 class="title">Start your first Blog</h3>
-                <p class="text">
-                    A blog is essentially an online journal or informational website, often updated with new content (blog posts) in a reverse chronological order. It's a space where individuals or organizations can share thoughts, opinions, news, and information on a variety of topics.
-                </p>
-                <p class="text">
-                   Blogs are known for their informal and conversational tone, making them engaging and approachable for readers.
-                </p>
-                <div class="links">
-                    <a href="#" class="user">
-                        <i class="fas fa-user"></i>
-                        <span>by admin</span>
-                    </a>
-                    <a href="#" class="user">
-                        <i class="fas fa-comment"></i>
-                        <span>(45)</span>
-                    </a>
-                     <a href="#" class="user">
-                        <i class="fas fa-share-square"></i>
-                        <span>(29)</span>
-                    </a>
-                </div>
-            </div>
+  <!-- Blog Intro Section -->
+  <section class="blog" id="blog">
+    <div class="content">
+      <h3>Explore the nature</h3>
+      <p>🌿 Step into the wild and let nature's calm refresh your soul.</p>
+      <a href="#" class="btn">my blogs</a>
+    </div>
+  </section>
 
-            <!--3rd blog upload section-->
-            <div class="post">
-                <img src="images/blog-3.jpeg" alt="blog" class="image">
-                <div class="date">
-                    <i class="far fa-clock"></i>
-                    <span>30th June,2025</span>
-                </div>
-                <h3 class="title">Hidden Mysteries of chemical bonds</h3>
-                <p class="text">
-                   Chemical bonds are the forces that hold atoms together to form molecules and compounds. They arise from the interactions between electrons of atoms, and these interactions can be broadly categorized as ionic, covalent, or metallic bonds. The type of bond formed dictates the properties of the resulting molecule or compound. 
-                </p>
-                <p class="text">
-                   Some atoms become more stable by gaining or losing an entire electron (or several electrons). When they do so, atoms form ions, or charged particles. Electron gain or loss can give an atom a filled outermost electron shell and make it energetically more stable.
-                </p>
-                <div class="links">
-                    <a href="#" class="user">
-                        <i class="fas fa-user"></i>
-                        <span>by admin</span>
-                    </a>
-                    <a href="#" class="user">
-                        <i class="fas fa-comment"></i>
-                        <span>(45)</span>
-                    </a>
-                     <a href="#" class="user">
-                        <i class="fas fa-share-square"></i>
-                        <span>(29)</span>
-                    </a>
-                </div>
-            </div>
+  <!-- Posts Section -->
+  <section class="container" id="posts">
+    <div class="posts-container">
+      
+      <!-- Blog Post 1 -->
+      <div class="post">
+        <img src="images/blog-1.jpg" alt="blog" class="image clickable-post" data-post="1" />
+        <div class="date"><i class="far fa-clock"></i><span>28th June, 2025</span></div>
+        <h3 class="title">Best Practices to start Blog</h3>
+        <p class="text">Blogging is a great way to express yourself and share your thoughts...</p>
+        <p class="text">It can also help build your personal brand and establish credibility...</p>
+        <div class="links">
+          <a href="#" class="user"><i class="fas fa-user"></i><span>by admin</span></a>
+          <a href="#" class="user"><i class="fas fa-comment"></i><span>(45)</span></a>
+          <a href="#" class="user"><i class="fas fa-share-square"></i><span>(29)</span></a>
+        </div>
+        <div class="comment-section">
+          <input type="text" class="comment-input" placeholder="Write a comment..." />
+          <button class="comment-btn">Post</button>
+          <div class="comment-list"></div>
+        </div>
+      </div>
 
-          </div>
-          <div class="sidebar">
-            <div class="box">
-                <h3 class="title">about us</h3>
-                <div class="about">
-                   <img src="images/user.jpg" alt="">
-                   <h3>Bloggy</h3>
-                   <p>
-                    We are a team of passionate writers and designers who are dedicated to providing high-quality content to our
-                    readers. We strive to create engaging and informative articles that cater to a wide range of interests.
-                   </p>
-                </div>
-            </div>
-            <div class="box">
-                <h3 class="title">Category</h3>
-                <div class="category">
-                    <a href="#">travel <span>37</span></a>
-                    <a href="#">photography <span>12</span></a>
-                    <a href="#">technology<span>83</span></a>
-                    <a href="#">fashion <span>23</span></a>
-                    <a href="#">study <span>17</span></a>
-                    <a href="#">science <span>36</span></a>
-                    <a href="#">music <span>46</span></a>
-                    <a href="#">public <span>77</span></a>
-                    <a href="#">business<span>20</span></a>
-                    <a href="#">sports <span>51</span></a>
-                </div>
-            </div>
-            <!--popular blogs section-->
-            <div class="box">
-                <h3 class="title">popular blogs</h3>
-                <div class="p-post">
-                    <a href="#">
-                        <h3>01. Best Practices</h3>
-                        <span><i class="far fa-clock">28th June,2025</i></span>
-                    </a>
+      <!-- Blog Post 2 -->
+      <div class="post">
+        <img src="images/blog-2.webp" alt="blog" class="image clickable-post" data-post="2" />
+        <div class="date"><i class="far fa-clock"></i><span>29th June, 2025</span></div>
+        <h3 class="title">Start your first Blog</h3>
+        <p class="text">A blog is essentially an online journal or informational website...</p>
+        <p class="text">Blogs are known for their informal and conversational tone...</p>
+        <div class="links">
+          <a href="#" class="user"><i class="fas fa-user"></i><span>by admin</span></a>
+          <a href="#" class="user"><i class="fas fa-comment"></i><span>(45)</span></a>
+          <a href="#" class="user"><i class="fas fa-share-square"></i><span>(29)</span></a>
+        </div>
+        <div class="comment-section">
+          <input type="text" class="comment-input" placeholder="Write a comment..." />
+          <button class="comment-btn">Post</button>
+          <div class="comment-list"></div>
+        </div>
+      </div>
 
-                    <a href="#">
-                        <h3>02. Start Blog from Today</h3>
-                        <span><i class="far fa-clock">30th June,2025</i></span>
-                    </a>
+      <!-- Blog Post 3 -->
+      <div class="post">
+        <img src="images/blog-3.jpeg" alt="blog" class="image clickable-post" data-post="3" />
+        <div class="date"><i class="far fa-clock"></i><span>30th June, 2025</span></div>
+        <h3 class="title">Hidden Mysteries of Chemical Bonds</h3>
+        <p class="text">Chemical bonds are forces that hold atoms together...</p>
+        <p class="text">Some atoms become stable by gaining or losing electrons...</p>
+        <div class="links">
+          <a href="#" class="user"><i class="fas fa-user"></i><span>by admin</span></a>
+          <a href="#" class="user"><i class="fas fa-comment"></i><span>(45)</span></a>
+          <a href="#" class="user"><i class="fas fa-share-square"></i><span>(29)</span></a>
+        </div>
+        <div class="comment-section">
+          <input type="text" class="comment-input" placeholder="Write a comment..." />
+          <button class="comment-btn">Post</button>
+          <div class="comment-list"></div>
+        </div>
+      </div>
 
-                    <a href="#">
-                        <h3>03. Hidden Mysteries</h3>
-                        <span><i class="far fa-clock">30th June,2025</i></span>
-                    </a>
-                </div>
-            </div>
-          <!--popular blog tags section-->
-            <div class="box">
-                <h3 class="title">popular tags</h3>
-                <div class="tags">
-                    <a href="#">travel</a>
-                    <a href="#">science</a>
-                    <a href="#">nature</a>
-                    <a href="#">landscape</a>
-                    <a href="#">biology</a>
-                    <a href="#">music</a>
-                    <a href="#">biomedics</a>
-                    <a href="#">mysteries</a>
-                </div>
-            </div>
-          </div>
-        </section>
+    </div>
 
-        <!--contact section-->
-        <section class="contact" id="contact">
-            <form action="">
-                <h3>contact us</h3>
-                <div class="inputBox">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
-                </div>
-                <div class="inputBox">
-                    <input type="number" placeholder="number">
-                    <input type="text" placeholder="subject">
-                </div>
-                <textarea name="" placeholder="message"></textarea>
-                <input type="submit" value="send message" class="btn">
-            </form>
-        </section>
-        <!--footer section-->
-        <section class="footer">
-            <div class="follow">
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
-            </div>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- About Box -->
+      <div class="box">
+        <h3 class="title">about us</h3>
+        <div class="about">
+          <img src="images/user.jpg" alt="user" />
+          <h3>Bloggy</h3>
+          <p>We are a team of passionate writers dedicated to high-quality content.</p>
+        </div>
+      </div>
 
-            <div class="credit">
-                created by <span>Raj Deep</span> || All rights reserved
-            </div>
-        </section>
-    </body>
-    <script src="script.js"></script>
+      <!-- Categories -->
+      <div class="box">
+        <h3 class="title">Category</h3>
+        <div class="category">
+          <a href="#">travel <span>37</span></a>
+          <a href="#">science <span>36</span></a>
+          <a href="#">music <span>46</span></a>
+          <a href="#">sports <span>51</span></a>
+        </div>
+      </div>
+
+      <!-- Popular Blogs -->
+      <div class="box">
+        <h3 class="title">popular blogs</h3>
+        <div class="p-post">
+          <a href="#"><h3>01. Best Practices</h3><span><i class="far fa-clock"></i>28th June</span></a>
+          <a href="#"><h3>02. Start Blog</h3><span><i class="far fa-clock"></i>29th June</span></a>
+          <a href="#"><h3>03. Hidden Bonds</h3><span><i class="far fa-clock"></i>30th June</span></a>
+        </div>
+      </div>
+
+      <!-- Tags -->
+      <div class="box">
+        <h3 class="title">popular tags</h3>
+        <div class="tags">
+          <a href="#">nature</a>
+          <a href="#">science</a>
+          <a href="#">coding</a>
+          <a href="#">travel</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <form action="">
+      <h3>contact us</h3>
+      <div class="inputBox">
+        <input type="text" placeholder="name" />
+        <input type="email" placeholder="email" />
+      </div>
+      <div class="inputBox">
+        <input type="number" placeholder="number" />
+        <input type="text" placeholder="subject" />
+      </div>
+      <textarea placeholder="message"></textarea>
+      <input type="submit" value="send message" class="btn" />
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer">
+    <div class="follow">
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+    </div>
+    <div class="credit">created by <span>Raj Deep</span> || All rights reserved</div>
+  </section>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
 </html>
