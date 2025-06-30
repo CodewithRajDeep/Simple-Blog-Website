@@ -38,6 +38,10 @@ section{
     cursor: pointer;
     font-size: 1.7rem;
 }
+
+.btn:hover{
+    background: var(--orange);
+}
 .header{
     position: fixed;
     top: 0;
@@ -140,6 +144,9 @@ section{
  .header{
     padding: 1.5rem;
  }
+ section{
+    padding:2rem;
+}
 }
 
 @media (max-width: 768px){
@@ -215,4 +222,11 @@ section{
     color: var(--light-color);
     padding: 1rem 0;
     line-height: 1.5;
+}
+
+@media (max-width: 450px){
+ html{
+    font-size: 50%;
+ }
+ 
 }
