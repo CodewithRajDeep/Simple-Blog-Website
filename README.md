@@ -1,6 +1,7 @@
 # 📝 Bloggy - Responsive Blog Website
 
-![Bloggy Banner](https://github.com/user-attachments/assets/aebc0865-dd5d-4dff-839c-c2b2646fbb0b)
+![image](https://github.com/user-attachments/assets/98f20f27-08fe-4308-a9fa-7aa1b3c49a47)
+
 
 ## ♠️ Purpose:
 **Bloggy** is a clean, minimalistic blog platform where users can explore blog posts and categories, view detailed posts, and add comments. It's perfect for writers, readers, and developers interested in lightweight content-based web platforms.
@@ -41,13 +42,12 @@
 ## <a name="screenshots">📸 Screenshots</a>
 
 ### 🧭 Home Page:
-![Home Page](https://github.com/user-attachments/assets/d090b7c9-e465-4523-a2e2-05ae131b2fd9)
+![Home Page](![image](https://github.com/user-attachments/assets/50c7da06-7e31-48fc-a7f3-602109bcf1fb)
+)
 
 ### 📝 Blog Post View:
-![Post View](https://github.com/user-attachments/assets/d1f64c54-c87d-43bb-9905-90ec3d026304)
-
-### 💬 Comments Section:
-![Add Comments](https://github.com/user-attachments/assets/42767ddd-063d-4429-a2c9-4b9d43677663)
+![Post View](![image](https://github.com/user-attachments/assets/11c7de19-be18-4d02-ab55-bcd68cf95d8b)
+)
 
 ---
 
